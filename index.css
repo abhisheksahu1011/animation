@@ -1,0 +1,51 @@
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: bro;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes bro{
+    0%{
+        height: 100px;
+        width: 100px;
+        top: 0%;
+        left: 0%;
+    }
+
+
+    25%{
+        height: 100px;
+        width: 100px;
+        top: 0px;
+        left: 500px;
+    }
+    50%{
+        height: 100px;
+        width: 100px;
+        top: 500px;
+        left:500px ;
+    }
+
+    75%{
+        height: 100px;
+        width: 100px;
+        top: 500px;
+        left:0 ;
+    }
+
+
+    100%{
+        height: 100px;
+        width: 100px;
+        height: 100px;
+        width: 100px;
+        top: 0;
+        left: 0;
+    } 
+
+
+
+}
